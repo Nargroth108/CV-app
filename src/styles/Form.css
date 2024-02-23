@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  justify-items: center;
+  padding: 2em;
+  gap: 1em;
+  width: 100%;
+  background-color: black;
+  min-height: 100dvh;
+}
+
+form,
+input {
+  font-size: 1.6rem;
+}
+
+fieldset {
+  width: 100%;
+  display: grid;
+  gap: 0.5em;
+  border-color: purple;
+}
+
+label {
+  display: grid;
+  font-weight: bold;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+input {
+  border: 1px solid purple;
+}
+
+button#submit {
+  margin: 1em 9em;
+}
