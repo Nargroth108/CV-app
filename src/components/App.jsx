@@ -8,14 +8,14 @@ export default function App() {
       sectionName: "General Info",
       sectionId: 1,
       inputs: {
-        a: { id: 0, name: "Name", value: "Nargroth", type: "text" },
+        a: { id: 0, name: "Name", value: "John Doe", type: "text" },
         b: {
           id: 1,
           name: "Email",
-          value: "nargroth.ss@gmail.com",
+          value: "johndoe.example@gmail.com",
           type: "email",
         },
-        c: { id: 2, name: "Phone", value: "06205265912", type: "number" },
+        c: { id: 2, name: "Phone", value: "1234567890", type: "number" },
       },
     },
 
@@ -26,14 +26,14 @@ export default function App() {
         a: {
           id: 0,
           name: "School",
-          value: "Budakalasz gimnazium",
+          value: "Random University",
           type: "text",
         },
-        b: { id: 1, name: "Date", value: "2020 - 2023", type: "text" },
+        b: { id: 1, name: "Date", value: "2002 - 2005", type: "text" },
         c: {
           id: 2,
           name: "Studies",
-          value: "gimnazium, erettsegi",
+          value: "Bachelor's degree in computer engeneering",
           type: "text",
         },
       },
@@ -42,14 +42,19 @@ export default function App() {
       sectionName: "Work experience",
       sectionId: 3,
       inputs: {
-        a: { id: 0, name: "Company", value: "Yoohyeon Bot", type: "text" },
-        b: { id: 1, name: "Position", value: "CEO, developer", type: "text" },
-        c: { id: 2, name: "During", value: "2024 - ", type: "text" },
+        a: { id: 0, name: "Company", value: "Example Company", type: "text" },
+        b: {
+          id: 1,
+          name: "Position",
+          value: "Senior software developer",
+          type: "text",
+        },
+        c: { id: 2, name: "During", value: "2014 - 2023", type: "text" },
         d: {
           id: 3,
           name: "Description",
           value:
-            "Main developer of the Yoohyeon Discord bot. Daily tasks include creating and uploading new cards, schedueling new events and constantly working on new features suggested by the playerbase. ",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui officiis dolorem incidunt quia harum, nostrum excepturi veritatis fugiat eveniet, odit provident nemo quibusdam sit rerum quas magnam, tempore fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui officiis dolorem incidunt quia harum, nostrum excepturi veritatis fugiat eveniet, odit provident nemo quibusdam sit rerum quas magnam, tempore fuga.",
           type: "text",
         },
       },
