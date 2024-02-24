@@ -54,7 +54,7 @@ export default function App() {
           id: 3,
           name: "Description",
           value:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui officiis dolorem incidunt quia harum, nostrum excepturi veritatis fugiat eveniet, odit provident nemo quibusdam sit rerum quas magnam, tempore fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui officiis dolorem incidunt quia harum, nostrum excepturi veritatis fugiat eveniet, odit provident nemo quibusdam sit rerum quas magnam, tempore fuga.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui officiis dolorem incidunt quia harum, nostrum excepturi veritatis fugiat eveniet, odit provident nemo quibusdam sit rerum quas magnam, tempore fuga.",
           type: "text",
         },
       },
